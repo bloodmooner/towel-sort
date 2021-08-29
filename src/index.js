@@ -2,7 +2,10 @@
 // You should implement your task here.
 
 
-const towelSort = (matrix) => {
+
+
+
+module.exports = function towelSort (matrix) {
     let sortedMatrix = [];
 
     for(let i = 0; i < matrix.length; i++) {
@@ -19,9 +22,4 @@ const towelSort = (matrix) => {
     }
 
     return sortedMatrix;
-};
-
-
-module.exports = function towelSort (matrix) {
-  return [];
 }
